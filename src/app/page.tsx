@@ -1,5 +1,11 @@
+import HeroBanner from "@/components/HeroBanner";
 const Homepage = () => {
-  return <div className="bg-red-200">Homepage</div>;
+  return (
+    <div>
+      {/* Hero Banner */}
+      <HeroBanner />
+    </div>
+  );
 };
 
 export default Homepage;
